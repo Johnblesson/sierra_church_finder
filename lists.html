@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sierra Church</title>
+    
+    
+<!--Add-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<!--Add-->
+</head>
+<body>
+
+    <!--Navbar-->
+     <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <div class="container">
+        <div>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/search-house.png" alt="" width="50" />
+          <h1 class="sierra">SIERRA CHURCH</h1>
+        </a></div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#details">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Vision</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-secondary px-4 mx-4"
+                href="#contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Search-->
+    <div class="search-wrapper">
+        <label for="search"></label>
+        <input type="search" id="search" placeholder="Search Nearby Church: by popular location" data-search>
+      </div>
+      <div class="container mx-auto">
+        <h1 class="text-center text-4xl text-indigo-400 py-12">Sierra Church Finder</h1>
+        <table class="min-w-full divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+                <tr>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase  tracking-wider">Church</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase  tracking-wider">Contact</th>
+                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase  tracking-wider">Location</th>
+                </tr>
+            </thead>
+            <tbody class="bg-white divide-y divide-gray-200" id="tbody">
+               
+            </tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>    
+</body>
+</html>
