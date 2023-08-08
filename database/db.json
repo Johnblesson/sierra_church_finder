@@ -1,6 +1,14 @@
 {
     "user" : [
         {
+            "id": 5,
+            "name": "Flaming Evangelical Ministries Int.",
+            "address": "29e Ascension Town Road, Freetown, Sierra Leone",
+            "logo": "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/271738118_4697383640356774_8546730275138336666_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=_oum3HYXBJwAX_DuytS&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBDdWBnKxyoNq5SQHThdxK7BfDyhEvB2RkNG4_grvfBFA&oe=64D552E1",
+            "contact" : "+23277041550",
+            "location" : "Ascension Town"
+        },
+        {
             "id": 1,
             "name": "Zion Praise Tabernacle",
             "address": "Back of Limkokwing University",
@@ -9,12 +17,60 @@
             "location" : "Hill Station"
         },
         {
-            "id": 2,
-            "name": "Word Global Ministries",
-            "address": "38 Oniel Street, Back of Albert Academy",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/308022341_389995639993635_1516279155745382418_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=e4tvAyOSgB8AX9c7KXF&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDSv3uYVE7duo7JjRrd_zvOdOjvqG-SNICeMnsclVQhRg&oe=64D68086",
-            "contact" : "+23277595171",
-            "location" : "Sorie Town"
+            "id": 10,
+            "name": "Faith Healing Bible Church",
+            "address": "6 Walmsley Lane, Off Berry Street",
+            "logo" : "https://yt3.googleusercontent.com/ytc/AOPolaTHz7AnqfwNlBj6e145ECNGqeMLsEGmwOVtfNjX=s900-c-k-c0x00ffffff-no-rj",
+            "contact" : "000 000 000 000",
+            "location" : "Freetown"
+        },
+        {
+            "id": 9,
+            "name": "New Life Ministries HQ",
+            "address": "Miracle City, Ross Road,",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJNRs6t03Q6n9_KaXyWlt3yEqDCDFHMoKdiK9XcSFgfMCfZCMztuddT5TKN2P2n86FT60&usqp=CAU",
+            "contact" : "+23276668616",
+            "location" : "Up Gun, Cline Town"
+        },
+        {
+            "id": 7,
+            "name": "Living Word of Faith Outreach Ministries Int.",
+            "address": "5 & 7 Victoria Street",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326912898_1979374519120963_8874278176970054003_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=be3454&_nc_ohc=H5kQ9i5jCHkAX9BiH0Z&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCA5fIpwSQ8rDZxXB1IviT-2CUdSse0wYECbfVInrbufA&oe=64D60D6A",
+            "contact" : "+23230900007",
+            "location" : "St. John"
+        },
+        {
+            "id": 6,
+            "name": "Revival Power Ministries Fire Center",
+            "address": "241 Regent Grafton Highway",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/232152169_2949304528655482_8073722775367654380_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UNKp-nEaQmUAX9rTqVP&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCNC9Q53aE_-59zUHXoaKpzoTBIMuSXmcOXrJIlxzLLiw&oe=64D62DB2",
+            "contact" : "+23276875229",
+            "location" : "Grafton"
+        },
+        {
+            "id": 8,
+            "name": "ZOE International Worship Center",
+            "address": "24 Bass Street",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/173672203_101821682048686_8776327298511878739_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=E80jJYj_f5gAX8vsWcM&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDs_-9Hanv4Z40-_OMeah7435ebHoM6Yl1TZIoISDqZiQ&oe=64F8959A",
+            "contact" : "+23278223576",
+            "location" : "Brookfields"
+        },
+        {
+            "id": 11,
+            "name": "Royal Embassy International",
+            "address": "Lord Street, Bottom Mango",
+            "logo" : "./images/royalembassy.jpg",
+            "contact" : "+23272815536",
+            "location" : "Waterloo"
+        },
+        {
+            "id": 12,
+            "name": "God's End Time Prophetic Ministries Int'l",
+            "address": "1 Johnson drive, Ojuku junction",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/99136708_1142773256072396_7317126892165791744_n.jpg?stp=dst-jpg_p640x640&_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=jdHOFaFJOXEAX9TJdEY&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAI6Gmc0_vfXKcU02jU7sOtgDUCFNQrDZtNXcfr29izsA&oe=64F8BF61",
+            "contact" : "+23276926722",
+            "location" : "Allen Town"
         },
         {
             "id": 3,
@@ -33,68 +89,12 @@
             "location" : "Rokupa"
         },
         {
-            "id": 5,
-            "name": "Flaming Evangelical Ministries Int.",
-            "address": "29e Ascension Town Road, Freetown, Sierra Leone",
-            "logo": "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/271738118_4697383640356774_8546730275138336666_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=_oum3HYXBJwAX_DuytS&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBDdWBnKxyoNq5SQHThdxK7BfDyhEvB2RkNG4_grvfBFA&oe=64D552E1",
-            "contact" : "+23277041550",
-            "location" : "Ascension Town"
-        },
-        {
-            "id": 6,
-            "name": "Revival Power Ministries Fire Center",
-            "address": "241 Regent Grafton Highway",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/232152169_2949304528655482_8073722775367654380_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UNKp-nEaQmUAX9rTqVP&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCNC9Q53aE_-59zUHXoaKpzoTBIMuSXmcOXrJIlxzLLiw&oe=64D62DB2",
-            "contact" : "+23276875229",
-            "location" : "Grafton"
-        },
-        {
-            "id": 7,
-            "name": "Living Word of Faith Outreach Ministries Int.",
-            "address": "5 & 7 Victoria Street",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326912898_1979374519120963_8874278176970054003_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=be3454&_nc_ohc=H5kQ9i5jCHkAX9BiH0Z&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCA5fIpwSQ8rDZxXB1IviT-2CUdSse0wYECbfVInrbufA&oe=64D60D6A",
-            "contact" : "+23230900007",
-            "location" : "St. John"
-        },
-        {
-            "id": 8,
-            "name": "ZOE International Worship Center",
-            "address": "24 Bass Street",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/173672203_101821682048686_8776327298511878739_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=E80jJYj_f5gAX8vsWcM&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDs_-9Hanv4Z40-_OMeah7435ebHoM6Yl1TZIoISDqZiQ&oe=64F8959A",
-            "contact" : "+23278223576",
-            "location" : "Brookfields"
-        },
-        {
-            "id": 9,
-            "name": "New Life Ministries HQ",
-            "address": "Miracle City, Ross Road,",
-            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJNRs6t03Q6n9_KaXyWlt3yEqDCDFHMoKdiK9XcSFgfMCfZCMztuddT5TKN2P2n86FT60&usqp=CAU",
-            "contact" : "+23276668616",
-            "location" : "Up Gun, Cline Town"
-        },
-        {
-            "id": 10,
-            "name": "Faith Healing Bible Church",
-            "address": "6 Walmsley Lane, Off Berry Street",
-            "logo" : "https://yt3.googleusercontent.com/ytc/AOPolaTHz7AnqfwNlBj6e145ECNGqeMLsEGmwOVtfNjX=s900-c-k-c0x00ffffff-no-rj",
-            "contact" : "000 000 000 000",
-            "location" : "Freetown"
-        },
-        {
-            "id": 11,
-            "name": "Royal Embassy International",
-            "address": "Lord Street, Bottom Mango",
-            "logo" : "./images/royalembassy.jpg",
-            "contact" : "+23272815536",
-            "location" : "Waterloo"
-        },
-        {
-            "id": 12,
-            "name": "God's End Time Prophetic Ministries Int'l",
-            "address": "1 Johnson drive, Ojuku junction",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/99136708_1142773256072396_7317126892165791744_n.jpg?stp=dst-jpg_p640x640&_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=jdHOFaFJOXEAX9TJdEY&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAI6Gmc0_vfXKcU02jU7sOtgDUCFNQrDZtNXcfr29izsA&oe=64F8BF61",
-            "contact" : "+23276926722",
-            "location" : "Allen Town"
+            "id": 2,
+            "name": "Word Global Ministries",
+            "address": "38 Oniel Street, Back of Albert Academy",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/308022341_389995639993635_1516279155745382418_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=e4tvAyOSgB8AX9c7KXF&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDSv3uYVE7duo7JjRrd_zvOdOjvqG-SNICeMnsclVQhRg&oe=64D68086",
+            "contact" : "+23277595171",
+            "location" : "Sorie Town"
         }
     ]
 }
