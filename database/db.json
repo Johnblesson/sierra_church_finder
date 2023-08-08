@@ -73,6 +73,14 @@
             "location" : "Allen Town"
         },
         {
+            "id": 13,
+            "name": "Jesus' Glory Int'l Ministries",
+            "address": "2 Percy Street, Off Charles Street",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/308082231_389115140097319_7893952128148052897_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=da9YTSdbvJkAX-fapwG&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCGSBJQ5tZk6sxV1n_AduTPKgFvmSELDHia-XAou7dIKg&oe=64D79DB7",
+            "contact" : "+23276617372",
+            "location" : "Pademba Road, Freetown"
+        },
+        {
             "id": 3,
             "name": "Apostolic Fire Ground Ministries",
             "address": "2 Wisdom Drive, Back of Old School",
