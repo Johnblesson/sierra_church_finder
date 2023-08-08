@@ -2,7 +2,8 @@ let tbody = document.getElementById("tbody");
 let searchInput = document.getElementById("search");
 
 // Fetch function
-fetch("http://localhost:3000/user")
+// fetch("http://localhost:3000/user")
+fetch("https://sierrachurch.vercel.app/database/db.json")
     .then(res => res.json())
     .then(json => {
         const allData = json; // Store all data for filtering
