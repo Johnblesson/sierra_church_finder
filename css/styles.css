@@ -140,6 +140,12 @@ input {
   text-align: center;
 }
 
+@media (max-width: 675px) {
+  input {
+    font-size: 0.8rem;
+  }
+}
+
 /* .user-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
