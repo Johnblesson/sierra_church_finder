@@ -103,6 +103,46 @@
             "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/308022341_389995639993635_1516279155745382418_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=e4tvAyOSgB8AX9c7KXF&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDSv3uYVE7duo7JjRrd_zvOdOjvqG-SNICeMnsclVQhRg&oe=64D68086",
             "contact" : "+23277595171",
             "location" : "Sorie Town"
+        },
+        {
+            "id": 14,
+            "name": "Winners Chapel International",
+            "address": "9 Pwd Quarters",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326553667_1203025280307097_4903976321669075606_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2x9mVpzc_zAAX_Hx5b4&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAPQW1XEwRr0qUdeTO9WFzjit7CcvSkp1lS6q2EdAGUgQ&oe=64D77C26",
+            "contact" : "+23299828559",
+            "location" : "Pademba Road, Freetown"
+        },
+        {
+            "id": 15,
+            "name": "Shalom Ministries SL H/Q",
+            "address": "City of Shalom, Mount Gerizim",
+            "logo" : "./images/dove.jpg",
+            "contact" : "000 000 000 000",
+            "location" : "Regent"
+        },
+        {
+            "id": 16,
+            "name": "Harvest Intercontinental Cathedral H/Q",
+            "address": "156 Circular Road",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327211603_942028696782739_7722401558048363103_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2LlXs9atKXAAX-bKfyQ&_nc_ht=scontent.ffna3-1.fna&oh=00_AfARXN3tLJga0aG3qnhocOktFrPvVDnGWvOMKm0uj4JHTg&oe=64D6EAEF",
+            "contact" : "+23276622073",
+            "location" : "Circular Road"
+        },
+        {
+            "id": 17,
+            "name": "Harvest Intercontinental Church",
+            "address": "Ross Road",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327211603_942028696782739_7722401558048363103_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2LlXs9atKXAAX-bKfyQ&_nc_ht=scontent.ffna3-1.fna&oh=00_AfARXN3tLJga0aG3qnhocOktFrPvVDnGWvOMKm0uj4JHTg&oe=64D6EAEF",
+            "contact" : "+23276559537",
+            "location" : "Cline Town"
+        },
+        {
+            "id": 17,
+            "name": "Faith Evangelical Church",
+            "address": "9 Ross Road",
+            "logo" : "./images/dove.jpg",
+            "contact" : "000 000 000 000",
+            "location" : "Cline Town"
         }
     ]
 }
