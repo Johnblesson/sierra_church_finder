@@ -121,6 +121,10 @@
   .sierra {
     font-size: 20px;
   }
+  #search {
+    margin-left: 40px;
+    font-size: 15px;
+  }
 }
 
 #search {

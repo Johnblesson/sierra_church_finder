@@ -22,7 +22,7 @@
 <!--Add-->
 
 <style>
- @media (max-width: 640px) {
+      @media (max-width: 640px) {
         .container {
             width: 100%;
             padding-left: 1rem;
@@ -37,17 +37,19 @@
         th, td {
         text-align: left;
         padding: 0.5rem;
+        padding-left: 1rem; /* Add this line to adjust left padding */
         }
         th:nth-child(1),
-        td:nth-child(1) {
-        display: block;
-        }
+        td:nth-child(1),
         th:nth-child(2),
         td:nth-child(2),
         th:nth-child(3),
         td:nth-child(3) {
-        display: inline-block;
-        width: 50%;
+        display: block;
+        }
+        th:nth-child(2),
+        th:nth-child(3) {
+        display: none;
         }
     }
 </style>
@@ -119,11 +121,8 @@
                
             </tbody>
         </table>
-    </div>
-    <script src="js/script.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="./js/main.js"></script> -->
-    <!--Search-->
+    </div> -->
+  
 <!--Search-->
 <div class="search-wrapper">
   <label for="search"></label>
@@ -146,6 +145,10 @@
       </table>
   </div>
 </div>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
         <!-- Brevo Conversations {literal} -->
         <script>
           (function(d, w, c) {
