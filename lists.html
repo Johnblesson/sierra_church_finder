@@ -19,41 +19,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
 
-<!--Add-->
-
-<style>
-      @media (max-width: 640px) {
-        .container {
-            width: 100%;
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
-        .table-responsive {
-            overflow-x: auto;
-        }
-        table {
-            display: block;
-        }
-        th, td {
-        text-align: left;
-        padding: 0.5rem;
-        padding-left: 1rem; /* Add this line to adjust left padding */
-        }
-        th:nth-child(1),
-        td:nth-child(1),
-        th:nth-child(2),
-        td:nth-child(2),
-        th:nth-child(3),
-        td:nth-child(3) {
-        display: block;
-        }
-        th:nth-child(2),
-        th:nth-child(3) {
-        display: none;
-        }
-    }
-</style>
-
 </head>
 <body>
 
@@ -126,7 +91,7 @@
 <!--Search-->
 <div class="search-wrapper">
   <label for="search"></label>
-  <input type="search" id="search" placeholder="Search Nearby Church: by popular location" data-search>
+  <input type="search" id="search" placeholder="Search Nearby Church..." data-search>
 </div>
 <div class="container mx-auto">
   <h1 class="text-center text-4xl text-indigo-400 py-12 font-bold">Sierra Church Finder</h1>
