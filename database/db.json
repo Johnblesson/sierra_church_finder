@@ -1,0 +1,364 @@
+{
+    "churches" : [
+        {
+            "id": 5,
+            "name": "Flaming Evangelical Ministries Int.",
+            "address": "29e Ascension Town Road",
+            "logo": "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/271738118_4697383640356774_8546730275138336666_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=_oum3HYXBJwAX_DuytS&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBDdWBnKxyoNq5SQHThdxK7BfDyhEvB2RkNG4_grvfBFA&oe=64D552E1",
+            "contact" : "+23277041550",
+            "location" : "Ascension Town"
+        },
+        {
+            "id": 1,
+            "name": "Zion Praise Tabernacle",
+            "address": "Back of Limkokwing University",
+            "logo": "https://www.zionpraisetabernacle.com/assets/img/pg.png",
+            "contact" : "+23278852433",
+            "location" : "Hill Station"
+        },
+        {
+            "id": 10,
+            "name": "Faith Healing Bible Church",
+            "address": "6 Walmsley Lane, Off Berry Street",
+            "logo" : "https://yt3.googleusercontent.com/ytc/AOPolaTHz7AnqfwNlBj6e145ECNGqeMLsEGmwOVtfNjX=s900-c-k-c0x00ffffff-no-rj",
+            "contact" : "000 000 000 000",
+            "location" : "Freetown"
+        },
+        {
+            "id": 9,
+            "name": "New Life Ministries HQ",
+            "address": "Miracle City, Ross Road,",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJNRs6t03Q6n9_KaXyWlt3yEqDCDFHMoKdiK9XcSFgfMCfZCMztuddT5TKN2P2n86FT60&usqp=CAU",
+            "contact" : "+23276668616",
+            "location" : "Up Gun, Cline Town"
+        },
+        {
+            "id": 7,
+            "name": "Living Word of Faith Outreach Ministries Int.",
+            "address": "5 & 7 Victoria Street",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326912898_1979374519120963_8874278176970054003_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=be3454&_nc_ohc=H5kQ9i5jCHkAX9BiH0Z&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCA5fIpwSQ8rDZxXB1IviT-2CUdSse0wYECbfVInrbufA&oe=64D60D6A",
+            "contact" : "+23230900007",
+            "location" : "St. John"
+        },
+        {
+            "id": 6,
+            "name": "Revival Power Ministries Fire Center",
+            "address": "241 Regent Grafton Highway",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/232152169_2949304528655482_8073722775367654380_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UNKp-nEaQmUAX9rTqVP&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCNC9Q53aE_-59zUHXoaKpzoTBIMuSXmcOXrJIlxzLLiw&oe=64D62DB2",
+            "contact" : "+23276875229",
+            "location" : "Grafton"
+        },
+        {
+            "id": 8,
+            "name": "ZOE International Worship Center",
+            "address": "24 Bass Street",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/173672203_101821682048686_8776327298511878739_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=E80jJYj_f5gAX8vsWcM&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDs_-9Hanv4Z40-_OMeah7435ebHoM6Yl1TZIoISDqZiQ&oe=64F8959A",
+            "contact" : "+23278223576",
+            "location" : "Brookfields"
+        },
+        {
+            "id": 11,
+            "name": "Royal Embassy International",
+            "address": "Lord Street, Bottom Mango",
+            "logo" : "./images/royalembassy.jpg",
+            "contact" : "+23272815536",
+            "location" : "Waterloo"
+        },
+        {
+            "id": 12,
+            "name": "God's End Time Prophetic Ministries Int'l",
+            "address": "1 Johnson drive, Ojuku junction",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/99136708_1142773256072396_7317126892165791744_n.jpg?stp=dst-jpg_p640x640&_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=jdHOFaFJOXEAX9TJdEY&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAI6Gmc0_vfXKcU02jU7sOtgDUCFNQrDZtNXcfr29izsA&oe=64F8BF61",
+            "contact" : "+23276926722",
+            "location" : "Allen Town"
+        },
+        {
+            "id": 13,
+            "name": "Jesus' Glory Int'l Ministries",
+            "address": "2 Percy Street, Off Charles Street",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/308082231_389115140097319_7893952128148052897_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=da9YTSdbvJkAX-fapwG&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCGSBJQ5tZk6sxV1n_AduTPKgFvmSELDHia-XAou7dIKg&oe=64D79DB7",
+            "contact" : "+23276617372",
+            "location" : "Pademba Road"
+        },
+        {
+            "id": 3,
+            "name": "Apostolic Fire Ground Ministries",
+            "address": "2 Wisdom Drive, Back of Old School",
+            "logo" : "./images/Afgm.png",
+            "contact" : "+23231042504",
+            "location" : "Hill Station"
+        },
+        {
+            "id": 4,
+            "name": "Kingdom Gospel Mission",
+            "address": "14 Old Railway Line",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/284593360_103665245820176_3722983399068850183_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=in0XaOPGj1wAX84o6me&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBteiuxG0oWDgUYlA9_8Lw_gxpTxV2xMt1Nm_OAnuYHcw&oe=64D64AD5",
+            "contact" : "+23279969094",
+            "location" : "Rokupa"
+        },
+        {
+            "id": 2,
+            "name": "Word Global Ministries",
+            "address": "38 Oniel Street, Back of Albert Academy",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/308022341_389995639993635_1516279155745382418_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=e4tvAyOSgB8AX9c7KXF&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDSv3uYVE7duo7JjRrd_zvOdOjvqG-SNICeMnsclVQhRg&oe=64D68086",
+            "contact" : "+23277595171",
+            "location" : "Sorie Town"
+        },
+        {
+            "id": 14,
+            "name": "Winners Chapel International",
+            "address": "9 Pwd Quarters",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326553667_1203025280307097_4903976321669075606_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2x9mVpzc_zAAX_Hx5b4&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAPQW1XEwRr0qUdeTO9WFzjit7CcvSkp1lS6q2EdAGUgQ&oe=64D77C26",
+            "contact" : "+23299828559",
+            "location" : "Pademba Road"
+        },
+        {
+            "id": 15,
+            "name": "Shalom Ministries SL H/Q",
+            "address": "City of Shalom, Mount Gerizim",
+            "logo" : "./images/dove.jpg",
+            "contact" : "000 000 000 000",
+            "location" : "Regent"
+        },
+        {
+            "id": 16,
+            "name": "Harvest Intercontinental Cathedral H/Q",
+            "address": "156 Circular Road",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327211603_942028696782739_7722401558048363103_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2LlXs9atKXAAX-bKfyQ&_nc_ht=scontent.ffna3-1.fna&oh=00_AfARXN3tLJga0aG3qnhocOktFrPvVDnGWvOMKm0uj4JHTg&oe=64D6EAEF",
+            "contact" : "+23276622073",
+            "location" : "Circular Road"
+        },
+        {
+            "id": 17,
+            "name": "Harvest Intercontinental Church",
+            "address": "Ross Road",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327211603_942028696782739_7722401558048363103_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2LlXs9atKXAAX-bKfyQ&_nc_ht=scontent.ffna3-1.fna&oh=00_AfARXN3tLJga0aG3qnhocOktFrPvVDnGWvOMKm0uj4JHTg&oe=64D6EAEF",
+            "contact" : "+23276559537",
+            "location" : "Cline Town"
+        },
+        {
+            "id": 19,
+            "name": "Faith Evangelical Church",
+            "address": "9 Ross Road",
+            "logo" : "./images/dove.jpg",
+            "contact" : "000 000 000 000",
+            "location" : "Cline Town"
+        },
+        {
+            "id": 18,
+            "name": "New Harvest Ministries",
+            "address": "14 Bear swaray street",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/306759687_225685966452681_6829315419327093571_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=eEibyhGa-_4AX_-EYbL&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBeiQXYQb7XVRF69NXzqCq0Dhfh_AVEkezD8w7DiSiAQg&oe=64D99EC2",
+            "contact" : "+23278908012",
+            "location" : "Kandeh Town Bo City"
+        },
+        {
+            "id": 20,
+            "name": "Greater Evangelism World Crusade",
+            "address": "8 Heddle Street, off Campbell Street",
+            "logo" : "https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/338904923_1708464626252940_3038980111264873237_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=10BMzbtVjR8AX-I-Lja&_nc_ht=scontent-lis1-1.xx&oh=00_AfBdNjGtRWRCwdi0s83zBFucBVvxLIBoGZvipgDwZTO0Ww&oe=64D926C9",
+            "contact" : "+23299485553",
+            "location" : "Campbell Street"
+        },
+        {
+            "id": 21,
+            "name": "Harvestfield chapel international",
+            "address": "30A kingharman Road",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/76759963_103418251131011_6261441548764839936_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Nowfc_xaqQcAX-cmUpC&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAFzsOYCoxqoYj0uJh4ZQa6STh6wfqr_apJ-Y13Nz-fNw&oe=64FB9769",
+            "contact" : "+23277823233",
+            "location" : "kingharman Road"
+        },
+        {
+            "id": 22,
+            "name": " Catch the Anointing Church / LightHouse Chapel International",
+            "address": "Ogoo Farm",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326579954_1403564423751856_6274740019623358454_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zefr4vgAXi0AX9sfeWM&_nc_ht=scontent.ffna3-1.fna&oh=00_AfA58dUeaCm3HfwCoyABaHx5dVJVo4EuvPXC7t9Yt-USHw&oe=64D8E0CB",
+            "contact" : "+23276549937",
+            "location" : " Peninsular, Goderich"
+        },
+        {
+            "id": 23,
+            "name": "Flaming Evangelical Ministries Int.",
+            "address": "Murray Town",
+            "logo": "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/271738118_4697383640356774_8546730275138336666_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=_oum3HYXBJwAX_DuytS&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBDdWBnKxyoNq5SQHThdxK7BfDyhEvB2RkNG4_grvfBFA&oe=64D552E1",
+            "contact" : "+23277643784",
+            "location" : "Murray Town Branch"
+        },
+        {
+            "id": 24,
+            "name": "Harvestfield chapel international",
+            "address": "SLBS Junction",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/76759963_103418251131011_6261441548764839936_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Nowfc_xaqQcAX-cmUpC&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAFzsOYCoxqoYj0uJh4ZQa6STh6wfqr_apJ-Y13Nz-fNw&oe=64FB9769",
+            "contact" : "+23277823233",
+            "location" : "Goderich"
+        },
+        {
+            "id": 25,
+            "name": "Jesus Is Lord Ministries",
+            "address": "Tower Hill",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327240370_7022400194442571_1403436857742838709_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=300f58&_nc_ohc=wbBEBaKtV9UAX92JTfk&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBVRckTs7sQcNH8SgYgqiHtq_rkD4wbQm9Xo27cnwAKOA&oe=64D8F81B",
+            "contact" : "+23276773431",
+            "location" : "Tower Hill"
+        },
+        {
+            "id": 26,
+            "name": "Jehovah Shalom International Kingdom Ministries",
+            "address": "Sumaila Town",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327170208_1587622575084006_4712725837298068586_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aLhsY3D6OIEAX9vCuWi&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDuwN_OSw6jIQRiPOE8XI415pYUhrFKrl1gsXjD9CDQcg&oe=64D8E705",
+            "contact" : "+23230341760",
+            "location" : "Sumaila Town"
+        },
+        {
+            "id": 27,
+            "name": "Achievers Gospel Chapel",
+            "address": "27 Davies Street, Kissy",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t1.6435-9/90853184_117439476559519_8886525766238470144_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=3v3v1ZvcpngAX-jQ-3A&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBRymKgTPUKqZo7yTP8lVOncLG0wxxqf73fkHaC_87-2Q&oe=64FB943B",
+            "contact" : "+232076618024",
+            "location" : "Kissy"
+        },
+        {
+            "id": 28,
+            "name": "Christ Healing Evangelical Ministry",
+            "address": "Back of Old School, Wash Car",
+            "logo" : "./images/dove.jpg",
+            "contact" : "000 000 000 000",
+            "location" : "Hill Station"
+        },
+        {
+            "id": 29,
+            "name": "Revival Power Ministries",
+            "address": "Waterloo Highway",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/232152169_2949304528655482_8073722775367654380_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UNKp-nEaQmUAX9rTqVP&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCNC9Q53aE_-59zUHXoaKpzoTBIMuSXmcOXrJIlxzLLiw&oe=64D62DB2",
+            "contact" : "+23279000010",
+            "location" : "Waterloo"
+        },
+        {
+            "id": 30,
+            "name": "Agape Outreach Ministries",
+            "address": "5 Williams Street, Kissy",
+            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327185700_3358790297709410_5169605378192157502_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tL0ct0IUs6QAX-nptnG&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAr9NvY5egxYzC63Uj3J3Oj4ZojfQthvuE19y0WcNKROQ&oe=64D9BA8F",
+            "contact" : "+23278362898",
+            "location" : "Kissy"
+        },
+        {
+            "id": 31,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 32,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 33,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 34,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 35,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 36,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 37,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 38,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 39,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 40,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 41,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 42,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 43,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 44,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        },
+        {
+            "id": 45,
+            "name": "",
+            "address": "",
+            "logo" : "",
+            "contact" : "",
+            "location" : ""
+        }
+    ]
+}

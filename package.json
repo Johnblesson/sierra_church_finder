@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start":"json-server --watch sierrachurches1.onrender.com/churches"
+    "start":"json-server ./database/db.json"
   },
   "keywords": [],
   "author": "",
