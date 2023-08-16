@@ -130,32 +130,62 @@
 #search {
   margin-left: 40px;
 }
+/* .select-container {
+  display: flex;
+  justify-content: center;
+} */
 
-/** Search for church**/
 .search-wrapper {
   display: flex;
-  flex-direction: column;
-  gap: .25rem;
-  margin-right: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
 }
 
-input {
-  font-size: 1rem;
-  text-align: center;
+/* Add this to your CSS stylesheet */
+.custom-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  margin: 0 auto;
+  padding: 8px;
+  border: 2px solid #3490dc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 300px;
+  flex: 1;
+  margin-right: 8px;
 }
 
-@media (max-width: 675px) {
-  input {
-    font-size: 0.8rem;
+
+/* Add this to your CSS stylesheet */
+.custom-select {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #3490dc; 
+  border-radius: 6px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 300px;
+}
+
+/* Slant effect for select on mobile */
+@media (max-width: 768px) {
+  .search-wrapper {
+      flex-direction: column;
+      align-items: flex-start; 
   }
-}
 
-/* .user-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: .25rem;
-  margin-top: 1rem;
-} */
+  .custom-input {
+      width: 100%; /* Full width on mobile */
+      margin: 8px 0; /* Adjust margin as needed */
+  }
+  }
 
 /** Mobile view for the table**/
 @media (max-width: 640px) {
@@ -187,3 +217,5 @@ input {
   display: none;
   }
 }
+
+
