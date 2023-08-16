@@ -1,52 +1,48 @@
 let tbody = document.getElementById("tbody");
 let searchInput = document.getElementById("search");
-let locationSelect = document.getElementById("locationSearch"); // Changed to select element
+let locationInput = document.getElementById("locationSearch");
 
 // Fetch function
 fetch("https://sierrachurches1.onrender.com/churches")
     .then(res => res.json())
     .then(json => {
-        const allData = json; // Store all data for filtering
+        const allData = json;
         renderTable(allData);
 
-        // Populate the location dropdown options
-        const uniqueLocations = [...new Set(allData.map(data => data.location))];
-        uniqueLocations.forEach(location => {
+        // Populate location options and sort them alphabetically
+        const locationOptions = Array.from(new Set(allData.map(data => data.location)));
+        locationOptions.sort((a, b) => a.localeCompare(b));
+        
+        const locationSelect = document.getElementById("locationSearch");
+        locationOptions.forEach(location => {
             const option = document.createElement("option");
             option.value = location;
             option.textContent = location;
             locationSelect.appendChild(option);
         });
 
-        // Event listener for search input
         searchInput.addEventListener("input", filterData);
-
-        // Event listener for location select
-        locationSelect.addEventListener("change", filterData);
+        locationInput.addEventListener("change", filterData);
 
         function filterData() {
             const searchTerm = searchInput.value.toLowerCase();
-            const selectedLocation = locationSelect.value.toLowerCase(); // Get selected location
-            let filteredData;
+            const locationTerm = locationInput.value.toLowerCase();
 
-            if (selectedLocation === "") {
-                filteredData = allData.filter(data => (
+            let filteredData = allData.filter(data => {
+                return (
                     data.name.toLowerCase().includes(searchTerm) ||
                     data.address.toLowerCase().includes(searchTerm) ||
-                    data.contact.toLowerCase().includes(searchTerm)
-                ));
-            } else {
-                filteredData = allData.filter(data => (
-                    (data.name.toLowerCase().includes(searchTerm) ||
-                    data.address.toLowerCase().includes(searchTerm) ||
-                    data.contact.toLowerCase().includes(searchTerm)) &&
-                    (data.location.toLowerCase() === selectedLocation || selectedLocation === "all")
-                ));
-            }
+                    data.contact.toLowerCase().includes(searchTerm) ||
+                    data.location.toLowerCase().includes(locationTerm)
+                );
+            });
 
             renderTable(filteredData);
         }
     });
+
+// Rest of the code remains the same
+
 
 // Render table rows
 function renderTable(data) {
