@@ -1,6 +1,6 @@
 let tbody = document.getElementById("tbody");
 let searchInput = document.getElementById("search");
-let locationInput = document.getElementById("locationSearch");
+let locationSelect = document.getElementById("locationSearch");
 
 // Fetch function
 fetch("https://sierrachurches1.onrender.com/churches")
@@ -9,12 +9,10 @@ fetch("https://sierrachurches1.onrender.com/churches")
         const allData = json;
         renderTable(allData);
 
-        // Populate location options and sort them alphabetically
-        const locationOptions = Array.from(new Set(allData.map(data => data.location)));
-        locationOptions.sort((a, b) => a.localeCompare(b));
-        
-        const locationSelect = document.getElementById("locationSearch");
-        locationOptions.forEach(location => {
+        const uniqueLocations = [...new Set(allData.map(data => data.location))];
+        uniqueLocations.sort(); // Sort locations alphabetically
+
+        uniqueLocations.forEach(location => {
             const option = document.createElement("option");
             option.value = location;
             option.textContent = location;
@@ -22,29 +20,32 @@ fetch("https://sierrachurches1.onrender.com/churches")
         });
 
         searchInput.addEventListener("input", filterData);
-        locationInput.addEventListener("change", filterData);
+        locationSelect.addEventListener("change", filterData);
 
         function filterData() {
             const searchTerm = searchInput.value.toLowerCase();
-            const locationTerm = locationInput.value.toLowerCase();
+            const selectedLocation = locationSelect.value.toLowerCase();
+            let filteredData;
 
-            let filteredData = allData.filter(data => {
-                return (
+            if (selectedLocation === "") {
+                filteredData = allData.filter(data => (
                     data.name.toLowerCase().includes(searchTerm) ||
                     data.address.toLowerCase().includes(searchTerm) ||
-                    data.contact.toLowerCase().includes(searchTerm) ||
-                    data.location.toLowerCase().includes(locationTerm)
-                );
-            });
+                    data.contact.toLowerCase().includes(searchTerm)
+                ));
+            } else {
+                filteredData = allData.filter(data => (
+                    (data.name.toLowerCase().includes(searchTerm) ||
+                    data.address.toLowerCase().includes(searchTerm) ||
+                    data.contact.toLowerCase().includes(searchTerm)) &&
+                    (data.location.toLowerCase() === selectedLocation || selectedLocation === "all")
+                ));
+            }
 
             renderTable(filteredData);
         }
     });
 
-// Rest of the code remains the same
-
-
-// Render table rows
 function renderTable(data) {
     tbody.innerHTML = ""; // Clear existing rows
     data.forEach(dataItem => {
@@ -52,7 +53,6 @@ function renderTable(data) {
     });
 }
 
-// Create td
 function td_fun({ logo, name, address, contact, location }) {
     let td = document.createElement("tr");
     td.innerHTML = `
