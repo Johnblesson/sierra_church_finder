@@ -217,4 +217,22 @@
   }
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  /* background-color: #f5f5f5; */
+}
+
+.header img {
+  margin-right: 0px;
+  align-self: flex-start; /* Align the image at the top */  
+}
+
+.sierra {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
 
