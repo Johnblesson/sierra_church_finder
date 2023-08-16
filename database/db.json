@@ -1,14 +1,6 @@
 {
     "churches" : [
         {
-            "id": 5,
-            "name": "Flaming Evangelical Ministries Int.",
-            "address": "29e Ascension Town Road",
-            "logo": "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/271738118_4697383640356774_8546730275138336666_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=_oum3HYXBJwAX_DuytS&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBDdWBnKxyoNq5SQHThdxK7BfDyhEvB2RkNG4_grvfBFA&oe=64D552E1",
-            "contact" : "+23277041550",
-            "location" : "Ascension Town"
-        },
-        {
             "id": 1,
             "name": "Zion Praise Tabernacle",
             "address": "Back of Limkokwing University",
@@ -36,7 +28,7 @@
             "id": 7,
             "name": "Living Word of Faith Outreach Ministries Int.",
             "address": "5 & 7 Victoria Street",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326912898_1979374519120963_8874278176970054003_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=be3454&_nc_ohc=H5kQ9i5jCHkAX9BiH0Z&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCA5fIpwSQ8rDZxXB1IviT-2CUdSse0wYECbfVInrbufA&oe=64D60D6A",
+            "logo" : "https://sierrachurch.vercel.app/images/LivingWordOfFaith.jpg",
             "contact" : "+23230900007",
             "location" : "St. John"
         },
@@ -44,9 +36,17 @@
             "id": 6,
             "name": "Revival Power Ministries Fire Center",
             "address": "241 Regent Grafton Highway",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/232152169_2949304528655482_8073722775367654380_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UNKp-nEaQmUAX9rTqVP&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCNC9Q53aE_-59zUHXoaKpzoTBIMuSXmcOXrJIlxzLLiw&oe=64D62DB2",
+            "logo" : "https://sierrachurch.vercel.app/images/RevivalPowerMin.jpg",
             "contact" : "+23276875229",
             "location" : "Grafton"
+        },
+        {
+            "id": 5,
+            "name": "Flaming Evangelical Ministries Int.",
+            "address": "29e Ascension Town Road",
+            "logo": "https://sierrachurch.vercel.app/images/flaming.jpg",
+            "contact" : "+23277041550",
+            "location" : "Ascension Town"
         },
         {
             "id": 8,
@@ -76,7 +76,7 @@
             "id": 13,
             "name": "Jesus' Glory Int'l Ministries",
             "address": "2 Percy Street, Off Charles Street",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/308082231_389115140097319_7893952128148052897_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=da9YTSdbvJkAX-fapwG&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCGSBJQ5tZk6sxV1n_AduTPKgFvmSELDHia-XAou7dIKg&oe=64D79DB7",
+            "logo" : "https://sierrachurch.vercel.app/images/dove.jpg",
             "contact" : "+23276617372",
             "location" : "Pademba Road"
         },
@@ -90,9 +90,9 @@
         },
         {
             "id": 4,
-            "name": "Kingdom Gospel Mission",
+            "name": "Kingdom Gospel Mission Inc",
             "address": "14 Old Railway Line",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/284593360_103665245820176_3722983399068850183_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=in0XaOPGj1wAX84o6me&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBteiuxG0oWDgUYlA9_8Lw_gxpTxV2xMt1Nm_OAnuYHcw&oe=64D64AD5",
+            "logo" : "https://sierrachurch.vercel.app/images/KGM.jpg",
             "contact" : "+23279969094",
             "location" : "Rokupa"
         },
@@ -100,7 +100,7 @@
             "id": 2,
             "name": "Word Global Ministries",
             "address": "38 Oniel Street, Back of Albert Academy",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/308022341_389995639993635_1516279155745382418_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=e4tvAyOSgB8AX9c7KXF&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDSv3uYVE7duo7JjRrd_zvOdOjvqG-SNICeMnsclVQhRg&oe=64D68086",
+            "logo" : "https://sierrachurch.vercel.app/images/WordGlobal.jpg",
             "contact" : "+23277595171",
             "location" : "Sorie Town"
         },
@@ -108,7 +108,7 @@
             "id": 14,
             "name": "Winners Chapel International",
             "address": "9 Pwd Quarters",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326553667_1203025280307097_4903976321669075606_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2x9mVpzc_zAAX_Hx5b4&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAPQW1XEwRr0qUdeTO9WFzjit7CcvSkp1lS6q2EdAGUgQ&oe=64D77C26",
+            "logo" : "https://sierrachurch.vercel.app/images/Winners.png",
             "contact" : "+23299828559",
             "location" : "Pademba Road"
         },
@@ -124,15 +124,23 @@
             "id": 16,
             "name": "Harvest Intercontinental Cathedral H/Q",
             "address": "156 Circular Road",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327211603_942028696782739_7722401558048363103_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2LlXs9atKXAAX-bKfyQ&_nc_ht=scontent.ffna3-1.fna&oh=00_AfARXN3tLJga0aG3qnhocOktFrPvVDnGWvOMKm0uj4JHTg&oe=64D6EAEF",
+            "logo" : "https://sierrachurch.vercel.app/images/HarvestInter.png",
             "contact" : "+23276622073",
             "location" : "Circular Road"
+        },
+        {
+            "id": 34,
+            "name": "Battle AXE Ministry International HQ",
+            "address": "25 Edward Street",
+            "logo" : "https://sierrachurch.vercel.app/images/BattleAxe.jpg",
+            "contact" : "+23299721013",
+            "location" : "Off Sanders Street, St John"
         },
         {
             "id": 17,
             "name": "Harvest Intercontinental Church",
             "address": "Ross Road",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327211603_942028696782739_7722401558048363103_n.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2LlXs9atKXAAX-bKfyQ&_nc_ht=scontent.ffna3-1.fna&oh=00_AfARXN3tLJga0aG3qnhocOktFrPvVDnGWvOMKm0uj4JHTg&oe=64D6EAEF",
+            "logo" : "https://sierrachurch.vercel.app/images/HarvestInter.png",
             "contact" : "+23276559537",
             "location" : "Cline Town"
         },
@@ -147,8 +155,8 @@
         {
             "id": 18,
             "name": "New Harvest Ministries",
-            "address": "14 Bear swaray street",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/306759687_225685966452681_6829315419327093571_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=eEibyhGa-_4AX_-EYbL&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBeiQXYQb7XVRF69NXzqCq0Dhfh_AVEkezD8w7DiSiAQg&oe=64D99EC2",
+            "address": "Railway Quarters Off Prince Williams Street",
+            "logo" : "https://sierrachurch.vercel.app/images/NewHarvest.jpg",
             "contact" : "+23278908012",
             "location" : "Kandeh Town Bo City"
         },
@@ -156,7 +164,7 @@
             "id": 20,
             "name": "Greater Evangelism World Crusade",
             "address": "8 Heddle Street, off Campbell Street",
-            "logo" : "https://scontent-lis1-1.xx.fbcdn.net/v/t39.30808-6/338904923_1708464626252940_3038980111264873237_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=10BMzbtVjR8AX-I-Lja&_nc_ht=scontent-lis1-1.xx&oh=00_AfBdNjGtRWRCwdi0s83zBFucBVvxLIBoGZvipgDwZTO0Ww&oe=64D926C9",
+            "logo" : "https://sierrachurch.vercel.app/images/GreaterEvangelism.jpg",
             "contact" : "+23299485553",
             "location" : "Campbell Street"
         },
@@ -172,7 +180,7 @@
             "id": 22,
             "name": " Catch the Anointing Church / LightHouse Chapel International",
             "address": "Ogoo Farm",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/326579954_1403564423751856_6274740019623358454_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=zefr4vgAXi0AX9sfeWM&_nc_ht=scontent.ffna3-1.fna&oh=00_AfA58dUeaCm3HfwCoyABaHx5dVJVo4EuvPXC7t9Yt-USHw&oe=64D8E0CB",
+            "logo" : "https://sierrachurch.vercel.app/images/CatchTheAnionting.jpg",
             "contact" : "+23276549937",
             "location" : " Peninsular, Goderich"
         },
@@ -180,7 +188,7 @@
             "id": 23,
             "name": "Flaming Evangelical Ministries Int.",
             "address": "Murray Town",
-            "logo": "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-1/271738118_4697383640356774_8546730275138336666_n.jpg?stp=dst-jpg_p320x320&_nc_cat=103&ccb=1-7&_nc_sid=c6021c&_nc_ohc=_oum3HYXBJwAX_DuytS&_nc_ht=scontent.ffna3-1.fna&oh=00_AfBDdWBnKxyoNq5SQHThdxK7BfDyhEvB2RkNG4_grvfBFA&oe=64D552E1",
+            "logo": "https://sierrachurch.vercel.app/images/flaming.jpg",
             "contact" : "+23277643784",
             "location" : "Murray Town Branch"
         },
@@ -203,9 +211,9 @@
         {
             "id": 26,
             "name": "Jehovah Shalom International Kingdom Ministries",
-            "address": "Sumaila Town",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327170208_1587622575084006_4712725837298068586_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aLhsY3D6OIEAX9vCuWi&_nc_ht=scontent.ffna3-1.fna&oh=00_AfDuwN_OSw6jIQRiPOE8XI415pYUhrFKrl1gsXjD9CDQcg&oe=64D8E705",
-            "contact" : "+23230341760",
+            "address": "8p Sumaila Town",
+            "logo" : "https://sierrachurch.vercel.app/images/JehovahShalom.jpg",
+            "contact" : "+23276292267",
             "location" : "Sumaila Town"
         },
         {
@@ -228,7 +236,7 @@
             "id": 29,
             "name": "Revival Power Ministries",
             "address": "Waterloo Highway",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/232152169_2949304528655482_8073722775367654380_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=UNKp-nEaQmUAX9rTqVP&_nc_ht=scontent.ffna3-1.fna&oh=00_AfCNC9Q53aE_-59zUHXoaKpzoTBIMuSXmcOXrJIlxzLLiw&oe=64D62DB2",
+            "logo" : "https://sierrachurch.vercel.app/images/RevivalPowerMin.jpg",
             "contact" : "+23279000010",
             "location" : "Waterloo"
         },
@@ -236,129 +244,201 @@
             "id": 30,
             "name": "Agape Outreach Ministries",
             "address": "5 Williams Street, Kissy",
-            "logo" : "https://scontent.ffna3-1.fna.fbcdn.net/v/t39.30808-6/327185700_3358790297709410_5169605378192157502_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tL0ct0IUs6QAX-nptnG&_nc_ht=scontent.ffna3-1.fna&oh=00_AfAr9NvY5egxYzC63Uj3J3Oj4ZojfQthvuE19y0WcNKROQ&oe=64D9BA8F",
+            "logo" : "https://sierrachurch.vercel.app/images/AgapeOutreach.jpg",
             "contact" : "+23278362898",
             "location" : "Kissy"
         },
         {
             "id": 31,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
+            "name": "Mount of Transfiguration International Ministry",
+            "address": "Gloucester (Sorie Town By The Transformer)",
+            "logo" : "https://sierrachurch.vercel.app/images/MountOfTransfiguration.jpg",
+            "contact" : "+23278257068",
+            "location" : "Gloucester Village"
         },
         {
             "id": 32,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
+            "name": "Mountain of God Evangelical Ministries",
+            "address": "1 Wisdom Drive, Sorie Town",
+            "logo" : "https://sierrachurch.vercel.app/images/MountainOfGod.jpg",
+            "contact" : "+23278257068",
+            "location" : "Gloucester Village"
         },
         {
             "id": 33,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 34,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 35,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 36,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 37,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 38,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 39,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 40,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 41,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 42,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 43,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 44,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        },
-        {
-            "id": 45,
-            "name": "",
-            "address": "",
-            "logo" : "",
-            "contact" : "",
-            "location" : ""
-        }
+            "name": "Thus Saith the Lord Chapel Intl.",
+            "address": "80 Off Pratt Street, New England ville",
+            "logo" : "https://sierrachurch.vercel.app/images/ThusSaithTheLord.jpg",
+            "contact" : "+23279017130",
+            "location" : "New England ville"
+            },
+            {
+                "id": 34,
+                "name": "Battle AXE Ministry International",
+                "address": "3c Johnson Lane Aberdeen",
+                "logo" : "https://sierrachurch.vercel.app/images/BattleAxe.jpg",
+                "contact" : "+23288242924",
+                "location" : "Aberdeen"
+            },
+            {
+                "id": 35,
+                "name": "Sanctuary Praise Cathedral",
+                "address": "2 Sawi Drive, Off kingharman Road.",
+                "logo" : "https://sierrachurch.vercel.app/images/SanctuaryPriase.jpg",
+                "contact" : "+23276242622",
+                "location" : "Brooksfield"
+            },
+            {
+                "id": 36,
+                "name": "Deeper Life Bible Church",
+                "address": "1 Wellesley Street, Back of the tank.",
+                "logo" : "https://sierrachurch.vercel.app/images/DeeperLifeBibleChurch.jpg",
+                "contact" : "+23276679385",
+                "location" : "Mount Aureol"
+            },
+            {
+                "id": 37,
+                "name": "Christ International Worship Center",
+                "address": "YWCA New Hall, Bus Stop",
+                "logo" : "https://sierrachurch.vercel.app/images/CIWC.jpg",
+                "contact" : "+23234036070",
+                "location" : "Brookfields"
+            },
+            {
+                "id": 38,
+                "name": "Bethel Temple Ministries International",
+                "address": "Opposite Rokel Sec. School",
+                "logo" : "https://sierrachurch.vercel.app/images/BethelTemple.jpg",
+                "contact" : "+23276046960",
+                "location" : "Tower Hill"
+            },
+            {
+                "id": 39,
+                "name": "Mt. Zion Fellowship Church",
+                "address": "Kono Compound Balcony, Solo-B Drive",
+                "logo" : "https://sierrachurch.vercel.app/images/MtZion.jpg",
+                "contact" : "+23288989474",
+                "location" : "Goderich"
+            },
+            {
+                "id": 40,
+                "name": "Wilberforce Baptist Church",
+                "address": "3 Main Motor Road",
+                "logo" : "https://sierrachurch.vercel.app/images/WilberforceBaptist.jpg",
+                "contact" : "+23276350283",
+                "location" : "Wilberforce"
+            },
+            {
+                "id": 41,
+                "name": "The Redeemed Christian Church of God HQ",
+                "address": "69 Sanders Street",
+                "logo" : "https://sierrachurch.vercel.app/images/RedeemedChristainChurch.jpg",
+                "contact" : "+23278911406",
+                "location" : "Sanders Street, St. John Area"
+            },
+            {
+                "id": 42,
+                "name": "The Redeemed Assemblies Church",
+                "address": "YMCA Kandeh Town",
+                "logo" : "https://sierrachurch.vercel.app/images/RedeemedAssembliesChurch.jpg",
+                "contact" : "+23278743194",
+                "location" : "Kandeh Town, Bo City"
+            },
+            {
+                "id": 42,
+                "name": "The Redeemed Christian Church of God",
+                "address": "Behind White House, close to Emergency Hospital",
+                "logo" : "https://sierrachurch.vercel.app/images/RedeemedChristainChurch.jpg",
+                "contact" : "+23278911406",
+                "location" : "Adokia, Goderich"
+            },
+            {
+                "id": 43,
+                "name": "Christ Embassy Sierra Leone",
+                "address": "5 Adeliade Street",
+                "logo" : "https://sierrachurch.vercel.app/images/ChristEmbassy.png",
+                "contact" : "+23278732356",
+                "location" : "St. John Area"
+            },
+            {
+                "id": 44,
+                "name": "National Penticostal Limba Church",
+                "address": "Fort Street",
+                "logo" : "https://sierrachurch.vercel.app/images/dove.jpg",
+                "contact" : "000 000 000 000",
+                "location" : "Off Circular Road"
+            },
+            {
+                "id": 45,
+                "name": "King Memorial UM Church",
+                "address": "Regent Street, Goderich Street.",
+                "logo" : "https://sierrachurch.vercel.app/images/dove.jpg",
+                "contact" : "000 000 000 000",
+                "location" : "Goderich Street"
+            },
+            {
+                "id": 46,
+                "name": "Wesley Methodist Church",
+                "address": "Lamina Sankoh Street",
+                "logo" : "https://sierrachurch.vercel.app/images/",
+                "contact" : "000 000 000 000",
+                "location" : "Siaka Stevens Street Area"
+            },
+            {
+                "id": 47,
+                "name": "Sacred Heart Catherdral/Cathedral of Freetown",
+                "address": "Siaka Stevens Street",
+                "logo" : "https://sierrachurch.vercel.app/images/dove.jpg",
+                "contact" : "000 000 000 000",
+                "location" : "Siaka Stevens Street"
+            },
+            {
+                "id": 48,
+                "name": "Buxton Memorial Methodist Church",
+                "address": "Charles Street",
+                "logo" : "https://sierrachurch.vercel.app/images/BuxtonMethodistChurch.jpg",
+                "contact" : "000 000 000 000",
+                "location" : "Charles Street"
+            },
+            {
+                "id": 54,
+                "name": "Christ Embassy Sierra Leone",
+                "address": "26 Prince Williams Street",
+                "logo" : "https://sierrachurch.vercel.app/images/ChristEmbassy.png",
+                "contact" : "+23278464847",
+                "location" : "Bo City"
+            },
+            {
+                "id": 51,
+                "name": "Christ Embassy Sierra Leone",
+                "address": "All Purpose Hall, Beside Leone Lodge",
+                "logo" : "https://sierrachurch.vercel.app/images/ChristEmbassy.png",
+                "contact" : "+23276424577",
+                "location" : "Lumley Beach Road"
+            },
+            {
+                "id": 52,
+                "name": "Christ Embassy Sierra Leone",
+                "address": "Congo Cross",
+                "logo" : "https://sierrachurch.vercel.app/images/ChristEmbassy.png",
+                "contact" : "+23276114941",
+                "location" : "Congo Cross"
+            },
+            {
+                "id": 53,
+                "name": "Christ Embassy Sierra Leone",
+                "address": "Grafton Town",
+                "logo" : "https://sierrachurch.vercel.app/images/ChristEmbassy.png",
+                "contact" : "+233554623034 Whattsapp",
+                "location" : " Grafton"
+            },
+            {
+                "id": 50,
+                "name": "Deeper Life Bible Church",
+                "address": "Nduvuibu Branch",
+                "logo" : "https://sierrachurch.vercel.app/images/DeeperLifeBibleChurch.jpg",
+                "contact" : "+23276659549",
+                "location" : "Nduvuibu Branch Bo City"
+            }
     ]
 }
