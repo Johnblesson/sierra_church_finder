@@ -31,7 +31,8 @@ fetch("https://sierrachurches1.onrender.com/churches")
                 filteredData = allData.filter(data => (
                     data.name.toLowerCase().includes(searchTerm) ||
                     data.address.toLowerCase().includes(searchTerm) ||
-                    data.contact.toLowerCase().includes(searchTerm)
+                    data.contact.toLowerCase().includes(searchTerm) ||
+                    data.location.toLowerCase().includes(searchTerm) // Add location to input search
                 ));
             } else {
                 filteredData = allData.filter(data => (
@@ -46,6 +47,7 @@ fetch("https://sierrachurches1.onrender.com/churches")
         }
     });
 
+// Render table rows
 function renderTable(data) {
     tbody.innerHTML = ""; // Clear existing rows
     data.forEach(dataItem => {
@@ -53,6 +55,7 @@ function renderTable(data) {
     });
 }
 
+// Create td
 function td_fun({ logo, name, address, contact, location }) {
     let td = document.createElement("tr");
     td.innerHTML = `

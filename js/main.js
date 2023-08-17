@@ -32,7 +32,6 @@ function renderTable(data) {
     });
 }
 
-
 // Create td
 function td_fun({ logo, name, address, contact, location }) {
     let td = document.createElement("tr");
