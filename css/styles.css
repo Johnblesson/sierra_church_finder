@@ -140,8 +140,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
+
 
 /* Add this to your CSS stylesheet */
 .custom-input {
@@ -163,8 +165,11 @@
 
 
 /* Add this to your CSS stylesheet */
+
+
 .custom-select {
   margin: 0 auto;
+  margin-left: 830px; /* Add this line to position to the extreme right */
   padding: 10px;
   border: 2px solid #3490dc; 
   border-radius: 6px;
@@ -172,6 +177,18 @@
   width: 80%;
   max-width: 300px;
 }
+
+@media (max-width: 768px){
+  .custom-select {
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #3490dc; 
+    border-radius: 6px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 300px;
+  }
+  }
 
 /* Slant effect for select on mobile */
 @media (max-width: 768px) {
