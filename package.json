@@ -7,7 +7,7 @@
     "start":"json-server https://sierrachurches1.onrender.com/churches"
   },
   "keywords": [],
-  "author": "",
+  "author": "John Blesson Rowe",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.3"
