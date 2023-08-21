@@ -1,5 +1,5 @@
 // // Your web app's Firebase configuration
-var config = {
+  var config = {
     apiKey: "AIzaSyCEaPnPHV8yEnF2MUrJE6R6Knd9DXCVqf0",
     authDomain: "sierrachurch.firebaseapp.com",
     databaseURL: "https://sierrachurch-default-rtdb.firebaseio.com",
