@@ -3,8 +3,8 @@ let searchInput = document.getElementById("search");
 
 // Fetch function
 // fetch("http://localhost:3000/churches")
-fetch("https://sierrachurches1.onrender.com/churches")
-// fetch("https://sierrachurch.vercel.app/database/db.json")
+// fetch("https://sierrachurches1.onrender.com/churches")
+fetch("https://churchapi.onrender.com/api/churches")
     .then(res => res.json())
     .then(json => {
         const allData = json; // Store all data for filtering
